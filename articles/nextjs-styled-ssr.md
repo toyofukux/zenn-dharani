@@ -3,7 +3,7 @@ title: "Next.jsとemotionを使ってSSR時にCSSを適用しておく"
 emoji: "🍳"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["Nextjs", "emotion", "SSR", "css"]
-published: false
+published: true
 ---
 
 先日[Beyond Magazine](https://www.beyondmag.jp/)というメディアをオープンしました。  
