@@ -78,3 +78,9 @@ Beyond Magazine では雑誌を作ってきたメンバーを中心に高いデ�
 今後はメディア単体でのマネタイズだけでなく質の高いコンテンツと多角的な事業で拡大していくのでご興味のある方は Twitter で DM ください！
 
 ![](https://storage.googleapis.com/zenn-user-upload/umo6g8r6dcoj4pz2poy8srgbq8xn)
+
+# 参考
+
+- [In what way is JS any more maintainable than CSS? How does writing CSS in JS make it any more maintainable?](https://gist.github.com/threepointone/731b0c47e78d8350ae4e105c1a83867d)  
+  CSS in JS とはなんぞや話。
+- [Nextjs で svg をインラインで読み込んで react component として使う](https://naporitan.hatenablog.com/entry/2020/12/28/143545)
