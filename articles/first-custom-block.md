@@ -299,5 +299,5 @@ Wordpress を Headless CMS にしてフロントエンドを構築する場合�
 僕が調査する範囲では Headless CMS についての知見はあまりネット上になく、カスタムブロックを追加するのに非常に手間取りました。
 これを気に個人ブログやかんたんな情報発信系のメディアだけではなく、よりリッチな Headless CMS を使ったプロダクトが増えていくといいなと思います。
 
-なお、Beyond Magazine では開発メンバーを募集しているのでご興味ある方は Twitter の DM 下さい！
+なお、[Beyond Magazine](https://beyondmag.jp?utm_source=zenn) では開発メンバーを募集しているのでご興味ある方は Twitter の DM 下さい！
 ![](https://storage.googleapis.com/zenn-user-upload/umo6g8r6dcoj4pz2poy8srgbq8xn)
