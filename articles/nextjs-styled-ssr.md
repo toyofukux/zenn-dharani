@@ -6,7 +6,7 @@ topics: ["Nextjs", "emotion", "SSR", "css"]
 published: true
 ---
 
-先日[Beyond Magazine](https://www.beyondmag.jp/)というメディアをオープンしました。  
+先日[Beyond Magazine](https://beyondmag.jp?utm_source=zenn)というメディアをオープンしました。  
 Next.js, Shifter での Headless CMS という構成で開発しましたが、いくつか知見を得たのでシェアしておきます。  
 (アーキテクチャなどは別途紹介する予定です)
 
@@ -74,7 +74,7 @@ const StyledHeader = styled.header`
 # まとめ
 
 実際のプロダクトでは、TOP ページにいきなりカルーセルがあるので、ファーストビューでテキストが画面の左に寄っていたり、画像が一瞬画面いっぱいに表示されてしまう現象が起こっていて UX がとても下がる状態でしたが、わがままを言っいくつかフィーチャーを後回しにしローンチ前に解決しました(焦りましたｗ)。  
-Beyond Magazine では雑誌を作ってきたメンバーを中心に高いデザイン性を目指しています。特に画像のクリエイティブのレベルが高いので、Web の技術者がその世界観を更に実現していけるように改善していく予定です。  
+[Beyond Magazine](https://beyondmag.jp?utm_source=zenn) では雑誌を作ってきたメンバーを中心に高いデザイン性を目指しています。特に画像のクリエイティブのレベルが高いので、Web の技術者がその世界観を更に実現していけるように改善していく予定です。  
 今後はメディア単体でのマネタイズだけでなく質の高いコンテンツと多角的な事業で拡大していくのでご興味のある方は Twitter で DM ください！
 
 ![](https://storage.googleapis.com/zenn-user-upload/umo6g8r6dcoj4pz2poy8srgbq8xn)
