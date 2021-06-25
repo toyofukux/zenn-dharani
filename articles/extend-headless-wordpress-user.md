@@ -34,6 +34,8 @@ Wordpress を Headless CMS として利用し、GraphQL 経由でフロントエ
 
 これらを Code Snippets を利用して行います。
 
+なお、完成形は[このリポジトリ](https://github.com/takasing/wordpress-extend-graphql-schema)に上げているので、Import して使ってください。
+
 ## プロフィール入力ページに拡張したい項目の入力欄を設ける
 
 ここからはシンプルに snippets を記載していきます。
