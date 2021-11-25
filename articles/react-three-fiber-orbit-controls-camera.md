@@ -96,3 +96,37 @@ export default CustomOrbitControls;
 # まとめ
 
 Three.js はもともと副作用のある処理が多く、React で利用する際は`useRef`を使いこなせないとかなり難易度が高い。
+
+# 追記(2021-11-25)
+
+drei のコミッターの方にモット短く書ける方法をアドバイスしてもらいました。
+
+@[tweet](https://twitter.com/0xca0a/status/1463613566649569280)
+
+```tsx
+const CustomOrbitControls: React.FC<Props> = ({ cameraState }) => {
+  const ref = useRef<OrbitControlsImpl>(null);
+  const cameraRef = useRef<PerspectiveCamera>(null);
+
+  useLayoutEffect(() => {
+    if (cameraRef && cameraRef.current) {
+      cameraRef.current.position.set(50, 100, 300);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (cameraRef && cameraRef.current) {
+      cameraRef.current.fov = cameraState.fov;
+    }
+  }, [cameraState]);
+
+  return (
+    <>
+      {/* makeDefaultをつける!! */}
+      <Drei.PerspectiveCamera makeDefault ref={cameraRef} {...cameraState} />
+      <OrbitControls ref={ref} makeDefault />
+    </>
+  );
+};
+export default CustomOrbitControls;
+```
