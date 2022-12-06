@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/takasing/zenn-dharani#readme",
   "devDependencies": {
-    "zenn-cli": "^0.1.89"
+    "zenn-cli": "^0.1.133"
   }
 }
